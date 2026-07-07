@@ -1,0 +1,21 @@
+header {
+    background-color: var(--cor-primaria);
+    text-align: center;
+    padding: 2rem;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: var(--raio-borda);
+    margin: 0 auto 15px auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.descricao {
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    margin: 0;
+}

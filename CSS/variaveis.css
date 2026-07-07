@@ -1,0 +1,19 @@
+:root {
+    --cor-primaria:    #c00500;
+    --cor-fundo:       #1a1a1a;
+    --cor-fundo-secao: #222222;
+    --cor-fundo-nav:   #1f1f1f;
+    --cor-texto:       #ffffff;
+    --cor-texto-suave: #cccccc;
+    --cor-hover-nav:   #383838;
+    --cor-input-fundo: #2e2e2e;
+    --cor-input-borda: #666666;
+    --cor-borda-focus: #c00500;
+
+    --fonte-principal: 'Roboto', sans-serif;
+
+    --espaco-secao: 3%;
+    --raio-borda:   8px;
+    --sombra-leve:  0 2px 5px rgba(0, 0, 0, 0.3);
+    --sombra-media: 0 4px 8px rgba(0, 0, 0, 0.4);
+}

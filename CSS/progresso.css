@@ -1,0 +1,59 @@
+.progresso {
+    background-color: var(--cor-fundo-nav);
+    padding: 1.2rem 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.progresso__item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex: 1 1 150px;
+    max-width: 250px;
+}
+
+.progresso__label {
+    font-size: 1rem;
+    color: var(--cor-texto-suave);
+    white-space: nowrap;
+    min-width: 90px;
+}
+
+.progresso__barra {
+    flex: 1;
+    height: 6px;
+    background-color: #333;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progresso__fill {
+    height: 100%;
+    width: 0;
+    background-color: var(--cor-primaria);
+    border-radius: 3px;
+    animation: crescer 1.5s ease forwards;
+}
+
+@keyframes crescer {
+    to { width: var(--pct); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .progresso__fill {
+        animation: none;
+        width: var(--pct);
+    }
+}
+
+.progresso__valor {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--cor-primaria);
+    min-width: 24px;
+    text-align: right;
+}

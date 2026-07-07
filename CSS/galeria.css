@@ -1,0 +1,22 @@
+.img-secao {
+    max-width: 600px;
+    width: 60%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: var(--raio-borda);
+    box-shadow: var(--sombra-media);
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.galeria img {
+    width: calc(50% - 15px);
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 5px;
+}
